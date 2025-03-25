@@ -1,2 +1,2 @@
-const banner = `Tool được phát triển bởi nhóm telegram: https://t.me/airdrophuntersieutoc`;
+const banner = `Tool By MRPTech - Join Teleram Channel : https://t.me/mrptechofficial`;
 export default banner;
