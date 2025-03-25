@@ -56,7 +56,7 @@ async function askQuestion(question) {
 
 async function autoRegister() {
   console.log(`Tool By MRPTech - Join Teleram Channel : https://t.me/mrptechofficial`);
-  const numberOfWallets = await askQuestion("Số ví muốn tạo: ");
+  const numberOfWallets = await askQuestion("Number Of Wallet To Create: ");
   if (isNaN(numberOfWallets) || numberOfWallets <= 0) {
     log.error("Invalid number of wallets.");
     process.exit(1);
