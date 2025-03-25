@@ -55,7 +55,7 @@ async function askQuestion(question) {
 }
 
 async function autoRegister() {
-  console.log(`Tool được phát triển bởi https://t.me/airdrophuntersieutoc`);
+  console.log(`Tool By MRPTech - Join Teleram Channel : https://t.me/mrptechofficial`);
   const numberOfWallets = await askQuestion("Số ví muốn tạo: ");
   if (isNaN(numberOfWallets) || numberOfWallets <= 0) {
     log.error("Invalid number of wallets.");
