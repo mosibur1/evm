@@ -77,7 +77,7 @@ Mnemonic: ${walletDetails.mnemonic}
       return;
     }
   }
-  console.log(chalk.green(`Tạo thành công ${numberOfWallets} ví!`));
+  console.log(chalk.green(`Successfully created ${numberOfWallets} Wallet`));
 }
 
 autoRegister();
